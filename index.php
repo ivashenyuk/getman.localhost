@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,16 +9,29 @@
 </head>
 <body>
   <div class="wrapper">
-    <header> 
-        <a href="/"><img src="/img/background.jpg" alt="header"></a>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="/">Головна</a></li>
-            <li><a href="#">Історія виникнення козацтва</a></li>
-        </ul>
-    </nav>
+   <?php include("/include/header.php");?>
+   <?php include("/include/nav.php");?>
     <main>
+        <section>
+            <div><img src="/img/380_1.jpg" alt="Апостол Данило Павлович (1654 - 1734)"></div>
+            <div><a href="">Апостол Данило Павлович (1654 - 1734)</a></div>
+            <div>Гетьман Лівобережної України</div>
+        </section>
+        <section>
+            <div><img src="/img/380_1.jpg" alt="Апостол Данило Павлович (1654 - 1734)"></div>
+            <div>Апостол Данило Павлович (1654 - 1734)</div>
+            <div>Гетьман Лівобережної України</div>
+        </section>
+        <section>
+            <div><img src="/img/380_1.jpg" alt="Апостол Данило Павлович (1654 - 1734)"></div>
+            <div>Апостол Данило Павлович (1654 - 1734)</div>
+            <div>Гетьман Лівобережної України</div>
+        </section>
+        <section>
+            <div><img src="/img/380_1.jpg" alt="Апостол Данило Павлович (1654 - 1734)"></div>
+            <div>Апостол Данило Павлович (1654 - 1734)</div>
+            <div>Гетьман Лівобережної України</div>
+        </section>
         <section>
             <div><img src="/img/380_1.jpg" alt="Апостол Данило Павлович (1654 - 1734)"></div>
             <div>Апостол Данило Павлович (1654 - 1734)</div>
@@ -26,7 +39,9 @@
         </section>
     </main>
     <footer>
-
+        <div>
+            &copy; Ткачук Дмитро
+        </div>
     </footer>
   </div>
 </body>
