@@ -94,3 +94,18 @@ main>section>div:nth-child(3) {
     line-height: 14px;
     color: #101010;
 }
+h1 {
+    padding: 20px;
+}
+p, main>img {
+    padding: 5px 25px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20px;
+    color: #404040;
+}
+h3 {
+    margin-left: 25px;
+}

@@ -1,0 +1,22 @@
+.wrapper {
+    background-color: #ffffff;
+}
+main>div {
+    padding: 20px;
+    display: flex;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    color: #404040;
+}
+
+main>div>div>p:nth-child(1) {
+    width: 100%;
+    margin-bottom: 20px;
+}
+main>div>div>p:nth-child(2) {
+    width: 98%;
+    text-align: justify;
+}
